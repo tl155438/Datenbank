@@ -4,6 +4,10 @@ Select*From Regisseur;
 DELETE FROM Regisseur
 WHERE RegisseurID >=6;   
 
+DELETE FROM Film
+WHERE FilmID >=16;
+
+
 -- Insert der Filme
 INSERT INTO Film (Titel, Länge, Jahr, RegisseurID) VALUES ('Harry Potter 2', 161, 2002, 1);
 
